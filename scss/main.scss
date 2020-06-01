@@ -1,5 +1,5 @@
 @import '_config';
-@import 'menu';
+@import '_menu';
 
 * {
 	box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
 	height: 100%;
 	margin: 0;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	line-height: 1.5;
+	line-height: 2;
 }
 
 //heading
@@ -21,10 +21,10 @@ h3 {
 	margin: 0;
 	font-weight: 400;
 	&.lg-heading {
-		font-size: 5rem;
+		font-size: 6rem;
 	}
 	&.sm-heading {
-		margin-bottom: 1.8rem;
+		margin-bottom: 2rem;
 		padding: 0.2rem 1rem;
 		background: rgba(lighten($primary-color, 2), 0.5);
 	}
