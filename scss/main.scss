@@ -47,7 +47,7 @@ header {
 
 main {
 	padding: 4rem;
-	min-height: calc(100vh-60px);
+	min-height: 100vh;
 	.icons {
 		margin-top: 1rem;
 		a {
@@ -116,6 +116,9 @@ main {
 			border-color: $secondary-color;
 			@include transitions;
 		}
+	}
+	i {
+		margin-right: 10px;
 	}
 }
 

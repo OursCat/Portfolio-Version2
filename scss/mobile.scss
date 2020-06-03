@@ -38,7 +38,9 @@
 		transform: translateX(100%);
 		margin: 0 auto;
 		.portrait {
-			background: url(/dist/img/portrait_small.jpg);
+			background: url(/dist/img/jian-avataaars.svg);
+			background-position: center;
+			background-size: cover;
 			width: 150px;
 			height: 150px;
 		}
